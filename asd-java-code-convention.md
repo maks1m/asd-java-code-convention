@@ -74,8 +74,10 @@ the ampersand in a conjunctive type bound: <T extends Foo & Bar>
 the pipe for a catch block that handles multiple exceptions: catch (FooException | BarException e)
 the colon (:) in an enhanced for ("for each") statement
       4. On both sides of the double slash (//) that begins an end-of-line comment.
-Enum classes
+
+#### Enum classes
 Each enum constant should be in separate line.
+
 Naming
 Rules common to all identifiers
 Identifiers use only ASCII letters and digits and in two cases noted below underscores. Thus, each valid identifier name is matched by the regular expression "\w+". Using of Hungarian notation or using other not understandable prefixes is not allowed. Also, it is not allowed to use underscore as prefix or suffix. Using of not latin letters is prohibited.
@@ -87,7 +89,8 @@ sName;
 Rules by identifier type
 Package names
 Package names are all lowercase, with consecutive words simply concatenated together (no underscores). For example, "com.mybookingpal.channelpartner", not "com.mybookingpal.channelPartner" or "com.mybookingpal.channel_partner".
-Class names
+
+#### Class names
 Class names are written in UpperCamelCase.
 Class names are typically nouns or noun phrases. For example, Character or ImmutableList. Interface names may also be nouns or noun phrases (for example, List), but may sometimes be adjectives or adjective phrases instead (for example, Readable).
 Method names
